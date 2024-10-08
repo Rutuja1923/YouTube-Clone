@@ -1,4 +1,4 @@
-# StreamTube
+# YouTube
 
 A YouTube-like video streaming platform built using only HTML and CSS. This project focuses on replicating the basic layout and design of YouTube, including video thumbnails, navigation menus, and a responsive layout.
 
