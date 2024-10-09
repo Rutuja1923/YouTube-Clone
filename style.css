@@ -21,7 +21,8 @@ nav{
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color: #fff;
-    position: fixed;
+    /* position: static; */
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -71,18 +72,6 @@ nav{
     width: 35px;
     border-radius: 50%;
 }
-input{
-    border: none;
-    outline: none;
-}
-
-button{
-    border: none;
-    background-color: none;
-}
-.search-box{
-    width: 600px;
-}
 #mike-icon{
     height: 35px;
     width: 35px;
@@ -102,7 +91,23 @@ button{
 #create:hover{
     width: 35px;
 }
+.nav-middle{
+    gap:10px;
+}
+.nav-middle .search-box input{
+    border: none;
+    outline: none;
+}
+button{
+    border: none;
+    background-color: none;
+}
+.search-box{
+    width: auto;
+    /* margin-right: 2px; */
+}
 #search-bar{
+    font-size: large;
     border: 1px solid #ccc;
     padding: 5px 12px;
     border-radius: 25px 0px 0px 25px;
@@ -118,5 +123,22 @@ button{
     border: 1px solid #ccc;
     border-radius: 0px 25px 25px 0px;
     border-left: none;
-    padding:5px 10px;
+    padding:5px 12px;
+}
+
+@media (max-width:1200px) {
+    .search-box{
+        width: 500px;
+    }
+}
+
+@media (max-width:900px){
+    .search-box{
+        width: 350px;
+    }
+}
+@media (max-width:600px){
+    #search-bar{
+        display: none;
+    }
 }
