@@ -21,7 +21,6 @@ nav{
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color: #fff;
-    /* position: static; */
     position: sticky;
     top: 0;
     left: 0;
@@ -53,7 +52,6 @@ nav{
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 #logo-icon{
     height: 30px;
@@ -104,10 +102,9 @@ button{
 }
 .search-box{
     width: auto;
-    /* margin-right: 2px; */
 }
 #search-bar{
-    font-size: large;
+    font-size: medium;
     border: 1px solid #ccc;
     padding: 5px 12px;
     border-radius: 25px 0px 0px 25px;
@@ -142,21 +139,84 @@ button{
         display: none;
     }
 }
+
+/* ---------------Side-bar styling ---------------*/
+.side-bar{
+    background-color: #fff;
+    width: 16%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 1.6%;
+    padding-top: 80px;
+    overflow-y: auto;
+    z-index: 100;
+}
 .side-bar div a  {
-    display: block;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sub-section{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.side-bar div a{
+    width: 95%;
+    padding: 2px 5px ;
 }
 .side-bar div a p {
     display: inline;
+    color: black;
 }
 .side-bar div a img,
 .side-bar div p > img{
     display: inline;
     height: 25px;
     width: 25px;
+    margin-right: 20px;
+}
+.line{
+    height: 2px;
+    background-color: #5a5a5a;
+    margin-right: 1.5rem;
 }
 
 .subscription-div a img{
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    border: 1px solid #5a5a5a;
 } 
+#show-more{
+    border: none;
+}
+.settings-div{
+    margin-top: 20px;
+}
+.side-bar div a:hover{
+    cursor: pointer;
+    background-color: #faf6f6;
+    border: 0.1px solid #e8e6e6;
+    border-radius: 3px;
+}
+.footer-div{
+    margin: 10px auto;
+}
+.footer-div div p>a{
+    display: inline;
+    font-size: small;
+}
+.copyright{
+    color: #4b4b4b;
+    margin-top: 10px;
+}
+.footer-div div p>a:hover{
+    cursor:pointer;
+    border: none;
+    background-color: #fff;
+}
