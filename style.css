@@ -142,3 +142,21 @@ button{
         display: none;
     }
 }
+.side-bar div a  {
+    display: block;
+}
+.side-bar div a p {
+    display: inline;
+}
+.side-bar div a img,
+.side-bar div p > img{
+    display: inline;
+    height: 25px;
+    width: 25px;
+}
+
+.subscription-div a img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+} 
