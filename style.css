@@ -306,11 +306,29 @@ button{
 
 .vid-list .thumbnail{
     width: 100%;
-    border-radius: 5%;
+    border-radius: 5px;
+    height: 150px;
 }
 
 .vid-list .video-box{
     display: flex;
     align-items: flex-start;
     margin-top: 7px;
+}
+
+.vid-list .video-box img{
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.vid-info{
+    color : #5a5a5a;
+    font-size:13px;
+}
+
+.vid-info a{
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin-bottom:5px ;
 }
