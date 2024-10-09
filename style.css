@@ -123,22 +123,7 @@ button{
     padding:5px 12px;
 }
 
-@media (max-width:1200px) {
-    .search-box{
-        width: 500px;
-    }
-}
 
-@media (max-width:900px){
-    .search-box{
-        width: 350px;
-    }
-}
-@media (max-width:600px){
-    #search-bar{
-        display: none;
-    }
-}
 
 /* ---------------Side-bar styling ---------------*/
 .side-bar{
@@ -334,4 +319,57 @@ button{
     font-weight: 600;
     display: block;
     margin-bottom:5px ;
+}
+
+/* Adding Responsiveness */
+
+@media (max-width:1200px) {
+    .search-box{
+        width: 500px;
+    }
+    .disapper{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right #profile{
+        display: block;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width:900px){
+    .search-box{
+        width: 350px;
+    }
+    #hamburger{
+        display: none;
+    }
+    .side-bar{
+        display: none;
+    }
+    .main-container ,
+    .large-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right #profile{
+        display: block;
+        height: 30px;
+        width: 30px;
+    }
+    .discover{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+    .nav-middle #mike-icon{
+        display: none;
+    }
 }
