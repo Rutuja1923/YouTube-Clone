@@ -11,3 +11,112 @@ a{
 img{
     cursor: pointer;
 }
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.flex-div{
+    display: flex;
+    flex-direction: row;
+}
+.nav-left,
+.nav-middle,
+.nav-right,
+.youtube-logo{
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    justify-content: center;
+}
+.nav-left{
+    gap:30px;
+}
+.nav-right{
+    gap: 30px;
+}
+.header-nav > div > img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#logo-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 2px;
+}
+.logo-text{
+    font-weight: 800;
+    font-size: larger;
+}
+#create {
+    width: 30px;
+}
+#profile{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+input{
+    border: none;
+    outline: none;
+}
+
+button{
+    border: none;
+    background-color: none;
+}
+.search-box{
+    width: 600px;
+}
+#mike-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 3px;
+    border:1px solid #ccc;
+}
+#hamburger:hover,
+#mike-icon:hover,
+#create:hover,
+#notification:hover{
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+#create:hover{
+    width: 35px;
+}
+#search-bar{
+    border: 1px solid #ccc;
+    padding: 5px 12px;
+    border-radius: 25px 0px 0px 25px;
+    width: 500px;
+    height: 40px;
+}
+.search-box > button> img{
+    width: 25px;
+    height: 25px;
+}
+.search-box>button{
+    width: 80px;
+    border: 1px solid #ccc;
+    border-radius: 0px 25px 25px 0px;
+    border-left: none;
+    padding:5px 10px;
+}
