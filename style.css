@@ -237,3 +237,61 @@ button{
 .small-sidebar .footer-div{
     display: none;
 }
+
+
+/*-------------main-container-------------*/
+.main-container{
+    background-color: #f9f9f9;
+    padding-left: 18%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.discover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.discover-title{
+    background-color: #dadada;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 0.5px solid #c6c6c6;
+    height: 35px;
+    text-align: center;
+    line-height: 25px;
+}
+.discover-title a{
+    color: black;
+    font-weight: 500;
+}
+#all-button{
+    background-color: #949393;
+}
+#all-button a{
+    color: #fff;
+}
+#more{
+    height: 35px;
+    width: auto;
+    border:none;
+    text-align: justify;
+    color: black;
+    padding: none;
+    background-color: #f9f9f9;
+
+}
+#more:hover{
+    cursor: pointer;
+    border: 0.2px solid #ccc;
+    border-radius: 50%;
+    background-color: #c6c6c6;
+    width: 35px;
+}
+
+.discover-title:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
