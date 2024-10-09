@@ -247,6 +247,9 @@ button{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.large-container{
+    padding-left: 8%;
+}
 .discover{
     display: flex;
     flex-direction: row;
