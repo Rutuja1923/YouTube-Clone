@@ -220,3 +220,20 @@ button{
     border: none;
     background-color: #fff;
 }
+
+.small-sidebar{
+    width: 5%;
+    padding-left: 1%;
+}
+.small-sidebar a p{
+    display: none;
+}
+.small-sidebar .sub-section{
+    display: none;
+}
+.small-sidebar .line{
+    width: 80%;
+}
+.small-sidebar .footer-div{
+    display: none;
+}
