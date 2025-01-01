@@ -186,7 +186,7 @@ button{
 .side-bar div a:hover{
     cursor: pointer;
     background-color: #faf6f6;
-    border: 0.1px solid #e8e6e6;
+    border: 0px solid #e8e6e6;
     border-radius: 3px;
 }
 .footer-div{
